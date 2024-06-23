@@ -2,11 +2,19 @@
 
 [View problem on LeetCode](https://leetcode.com/problems/merge-sorted-array/)
 
-![Submission](image.png)
+## Python Solution
+
+![Submission Python](image.png)
 
 Well, uhm... I just concatenated the two lists, and then used the merge sort algorithm to sort the list.
 
 Time complexity is $O(n \log n)$ where $n$ is the length of the `nums1` list.
+
+## C++ Solution
+
+![Submission C++](image-1.png)
+
+I concatenated the two lists, and then used the `std::sort` function to sort the list.
 
 ```
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
