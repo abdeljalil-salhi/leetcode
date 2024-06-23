@@ -1,6 +1,6 @@
 # 239. Sliding Window Maximum
 
-[View problem on LeetCode](https://leetcode.com/problems/sliding-window-maximum/submissions/1297707002/)
+[View problem on LeetCode](https://leetcode.com/problems/sliding-window-maximum/)
 
 ![Submission](image.png)
 
@@ -22,13 +22,13 @@ You are given an array of integers nums, there is a sliding window of size k whi
 
 Return the max sliding window.
 
- 
+
 
 Example 1:
 
 Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
 Output: [3,3,5,5,6,7]
-Explanation: 
+Explanation:
 Window position                Max
 ---------------               -----
 [1  3  -1] -3  5  3  6  7       3
@@ -41,7 +41,7 @@ Example 2:
 
 Input: nums = [1], k = 1
 Output: [1]
- 
+
 
 Constraints:
 
