@@ -55,36 +55,36 @@ Constraints:
 Handling the Special Case:
 If `k == 1`, each window is just a single element, so the result is the original array.
 
-Initialization:
+### Initialization:
 
 - `window`: A list to store the maximum values for each window.
 - `n`: The length of the input array `nums`.
 - `deq`: A deque to store the indices of elements in the current window in a way that the values of these elements are in decreasing order.
 - `left` and `right`: Pointers for the left and right ends of the sliding window, both initialized to 0.
 
-Sliding Window:
+### Sliding Window:
 
 - The outer `while` loop runs until the right pointer `right` reaches the end of the array.
 
-Maintaining the Deque:
+### Maintaining the Deque:
 
 - The `while` loop inside the main loop ensures the deque contains indices of elements in decreasing order of their values in `nums`. If the current element `nums[right]` is greater than the element at the last index in the deque, the last index is removed from the deque.
 - The current index `right` is appended to the deque.
 
-Removing Out-of-Window Elements:
+### Removing Out-of-Window Elements:
 
 - If the left pointer `left` is greater than the index at the front of the deque, it means the element at that index is out of the current window, so it is removed from the deque.
 
-Recording the Maximum Value:
+### Recording the Maximum Value:
 
 - Once the window size reaches `k` (i.e., `right + 1 >= k`), the element at the front of the deque (which is the maximum in the current window) is appended to the result list `window`.
 - The left pointer `left` is then incremented to shrink the window size, preparing for the next iteration.
 
-Incrementing the Right Pointer:
+### Incrementing the Right Pointer:
 
 - The right pointer `right` is incremented to expand the window size.
 
-Return Result:
+### Return Result:
 
 - The function returns the list `window`, which contains the maximum values for each sliding window of size `k`.
 
