@@ -38,3 +38,37 @@ Example 3:
 Input: nums = [4,2,2,2,4,4,2,2], limit = 0
 Output: 3
 ```
+
+## Explanation of the Code written by ChatGPT:
+
+### Initialization:
+
+- `n`: Length of the input array `nums`.
+- `max_deque`, `min_deque`: Two deques to store indices of elements for maintaining the maximum and minimum values in the current window.
+- `left`: Pointer for the left end of the sliding window, initialized to 0.
+- `longest`: Variable to store the length of the longest subarray found, initialized to 0.
+
+### Sliding Window Technique:
+
+- The `for` loop iterates through each element in `nums`, using `right` as the right pointer of the sliding window.
+
+### Maintaining Maximum and Minimum Deques:
+
+- Inside the loop, elements are added to `max_deque` and `min_deque` to maintain indices of elements in descending and ascending order of their values, respectively.
+  - `max_deque` keeps indices of elements in descending order of `nums` values to quickly find the maximum element in the current window.
+  - `min_deque` keeps indices of elements in ascending order of `nums` values to quickly find the minimum element in the current window.
+
+### Adjusting the Window:
+
+- After adding the current element's index to `max_deque` and `min_deque`, a `while` loop adjusts the window to ensure the absolute difference between the maximum and minimum elements in the window is less than or equal to `limit`.
+  - If the difference exceeds `limit`, increment the `left` pointer to shrink the window until the condition is satisfied. This involves removing elements from the left end of `max_deque` and `min_deque` if they are out of the current window range.
+
+### Calculating the Length of the Longest Subarray:
+
+- After adjusting the window, calculate the length of the current valid subarray (`right - left + 1`) and update `longest` if this length is greater than the previously recorded longest subarray length.
+
+### Return Result:
+
+- Finally, `longest` contains the length of the longest subarray found where the absolute difference between any two elements is less than or equal to `limit`. Return `longest` as the result.
+
+This code efficiently finds the longest subarray meeting the given condition using a sliding window approach with two deques to track maximum and minimum values, achieving a time complexity of O(n).
