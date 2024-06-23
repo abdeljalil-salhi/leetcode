@@ -2,7 +2,7 @@
 
 [View problem on LeetCode](https://leetcode.com/problems/sliding-window-maximum/submissions/1297707002/)
 
-![Submission](image-1.png)
+![Submission](image.png)
 
 This problem is a classic example of using the sliding window technique to find the maximum value in each window of size `k`. The key idea is to use a deque (double-ended queue) to store the indices of elements in the current window in a way that the values of these elements are in decreasing order. This allows us to quickly find the maximum value in the window.
 
