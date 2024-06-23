@@ -6,6 +6,8 @@
 
 Not the most efficient solution, but it works. I iterate through the matrix and for each 3x3 submatrix, I find the maximum value and add it to the result matrix.
 
+Time complexity is $O(n^2)$.
+
 ```
 
 You are given an n x n integer matrix grid.
