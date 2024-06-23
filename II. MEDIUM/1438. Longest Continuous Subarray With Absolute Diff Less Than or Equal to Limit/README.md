@@ -71,4 +71,4 @@ Output: 3
 
 - Finally, `longest` contains the length of the longest subarray found where the absolute difference between any two elements is less than or equal to `limit`. Return `longest` as the result.
 
-This code efficiently finds the longest subarray meeting the given condition using a sliding window approach with two deques to track maximum and minimum values, achieving a time complexity of O(n).
+This code efficiently finds the longest subarray meeting the given condition using a sliding window approach with two deques to track maximum and minimum values, achieving a time complexity of $O(n)$.
