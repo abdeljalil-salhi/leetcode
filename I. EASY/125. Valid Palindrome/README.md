@@ -4,7 +4,7 @@
 
 ![Submission](image.png)
 
-Time complexity is $O(n)$ because I iterate through the string once.
+Time complexity is $O(n)$ because I iterate through the string once. Best case scenario will be $O(n/2)$ due to the two-pointer approach.
 
 ```
 A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
