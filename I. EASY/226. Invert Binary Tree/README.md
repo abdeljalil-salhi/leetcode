@@ -2,7 +2,13 @@
 
 [View problem on LeetCode](https://leetcode.com/problems/invert-binary-tree/)
 
-![Submission](image.png)
+## C++ Solution
+
+![Submission C++](image.png)
+
+## Python3 Solution
+
+![Submission Python3](image-2.png)
 
 ```
 Given the root of a binary tree, invert the tree, and return its root.
