@@ -2,7 +2,17 @@
 
 [View problem on LeetCode](https://leetcode.com/problems/valid-parentheses/)
 
-![Submission](image.png)
+## C++ Solution
+
+![Submission C++](image.png)
+
+Time complexity is $O(n)$ where $n$ is the length of the string.
+
+## Python3 Solution
+
+![Submission Python3](image-1.png)
+
+Time complexity is $O(n)$ where $n$ is the length of the string.
 
 ```
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
