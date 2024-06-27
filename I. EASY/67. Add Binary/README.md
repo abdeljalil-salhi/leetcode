@@ -2,6 +2,10 @@
 
 [View problem on LeetCode](https://leetcode.com/problems/add-binary/)
 
+![Submission](image.png)
+
+We will first convert the binary string to a decimal using int() function in python. The int() function in Python and Python3 converts a number in the given base to decimal. Then we will add it and then again convert it into a binary number using bin() function.
+
 ```
 Given two binary strings a and b, return their sum as a binary string.
 
