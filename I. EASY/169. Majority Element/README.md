@@ -4,6 +4,14 @@
 
 ![Submission](image.png)
 
+Or we can just use the mode function from the statistics module.
+
+```python
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        return mode(nums)
+```
+
 ```
 Given an array nums of size n, return the majority element.
 

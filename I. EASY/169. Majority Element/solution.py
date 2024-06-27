@@ -1,10 +1,17 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        mymap = {i: 0 for i in nums}
+        n = len(nums)
+        hmap = {}
 
-        # Store the frequency of each element in the dictionary
-        for i in nums:
-            mymap[i] += 1
+        for e in nums:
+            # count the frequency of each element
+            if e in hmap:
+                hmap[e] += 1
+            else:
+                hmap[e] = 1
+            # check if the element is majority without iterating through the whole list
+            if hmap[e] > n / 2:
+                return e
 
-        # Return the element with the maximum frequency in the dictionary (✨ PYTHONIC ✨)
-        return max(mymap, key=mymap.get)
+        # return the element with the highest frequency if the majority element is not found
+        return max(hmap, key=hmap.get)
