@@ -13,6 +13,25 @@
 
 ---
 
+<h2 align="center">LeetCode Daily Problem</h2>
+
+<table align="center">
+  <tr>
+    <td width="30px"></td>
+    <td align="center">
+      <a href="/II. MEDIUM/2192. All Ancestors of a Node in a Directed Acyclic Graph/">
+        <img src="https://github.com/abdeljalil-salhi/leetcode/assets/65598953/fabf3ea9-4ec8-4297-aebf-50605e1fe6da" width="100px;" alt="LeetCode Streak"/><br>
+        <p>
+          <b>Visit >></b>
+        </p>
+      </a>
+    </td>
+    <td width="30px"></td>
+  </tr>
+</table>
+
+---
+
 <p>
     I try to provide well-documented solutions to the problems I solve on LeetCode. I hope you find them helpful. If you have any questions or suggestions, feel free to open an issue or pull request.
 </p>

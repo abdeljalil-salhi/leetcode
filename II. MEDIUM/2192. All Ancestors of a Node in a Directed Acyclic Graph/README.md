@@ -56,3 +56,11 @@ fromi != toi
 There are no duplicate edges.
 The graph is directed and acyclic.
 ```
+
+## Example 1 Visualization
+
+![Example 1](image-1.png)
+
+## Example 2 Visualization
+
+![Example 2](image-2.png)
