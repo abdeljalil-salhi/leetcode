@@ -1,4 +1,5 @@
 class UnionFind:
+
     def __init__(self, n: int):
         self.parent = {}
         self.rank = {}
@@ -27,3 +28,9 @@ class UnionFind:
             self.rank[p2] += self.rank[p1]
 
         return True
+
+
+# UF = UnionFind(len(edges))
+# for edge in edges:
+#     if not UF.union(edge[0], edge[1]):
+#         return edge
