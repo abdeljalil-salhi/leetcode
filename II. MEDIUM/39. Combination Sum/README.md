@@ -4,7 +4,7 @@
 
 ![Submission](image.png)
 
-Time complexity is $O(n \log n)$ for sorting the candidates and $O(2^n)$ for generating all possible combinations.
+Time complexity is $O(2^N)$ where $N$ is the number of candidates. The worst case is when the target is 1 and the candidates are all 1s. In this case, the number of recursive calls will be $2^N$.
 
 ```
 Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.
