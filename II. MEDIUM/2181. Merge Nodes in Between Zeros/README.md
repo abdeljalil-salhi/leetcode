@@ -48,3 +48,11 @@ The number of nodes in the list is in the range [3, 2 * 10^5].
 There are no two consecutive nodes with Node.val == 0.
 The beginning and end of the linked list have Node.val == 0.
 ```
+
+## Example 1 Visualization
+
+![Example 1](image-1.png)
+
+## Example 2 Visualization
+
+![Example 2](image-2.png)
