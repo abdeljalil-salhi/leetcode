@@ -19,7 +19,7 @@
   <tr>
     <td width="30px"></td>
     <td align="center">
-      <a href="/II. MEDIUM/1509. Minimum Difference Between Largest and Smallest Value in Three Moves/">
+      <a href="/II. MEDIUM/2181. Merge Nodes in Between Zeros/">
         <img src="https://github.com/abdeljalil-salhi/leetcode/assets/65598953/fabf3ea9-4ec8-4297-aebf-50605e1fe6da" width="100px;" alt="LeetCode Streak"/><br>
         <p>
           <b>Visit >></b>
