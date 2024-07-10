@@ -50,3 +50,11 @@ logs[i] contains lowercase English letters, digits, '.', and '/'.
 logs[i] follows the format described in the statement.
 Folder names consist of lowercase English letters and digits.
 ```
+
+## Example 1 Visualization
+
+![Example 1](image-1.png)
+
+## Example 2 Visualization
+
+![Example 2](image-2.png)
