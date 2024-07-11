@@ -2,6 +2,8 @@
 
 [View problem on LeetCode](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
 
+![Submission](image.png)
+
 Time Complexity: $O(n)$ where $n$ is the length of the input string.
 
 ```
