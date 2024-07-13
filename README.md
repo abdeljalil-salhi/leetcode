@@ -19,7 +19,7 @@
   <tr>
     <td width="30px"></td>
     <td align="center">
-      <a href="/II. MEDIUM/1717. Maximum Score From Removing Substrings/">
+      <a href="/III. HARD/2751. Robot Collisions/">
         <img src="https://github.com/abdeljalil-salhi/leetcode/assets/65598953/fabf3ea9-4ec8-4297-aebf-50605e1fe6da" width="100px;" alt="LeetCode Streak"/><br>
         <p>
           <b>Visit >></b>
