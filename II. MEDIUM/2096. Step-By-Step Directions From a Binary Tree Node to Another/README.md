@@ -40,3 +40,11 @@ All the values in the tree are unique.
 1 <= startValue, destValue <= n
 startValue != destValue
 ```
+
+## Example 1 Visualization
+
+![Example 1](image-1.png)
+
+## Example 2 Visualization
+
+![Example 2](image-2.png)
