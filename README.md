@@ -19,7 +19,7 @@
   <tr>
     <td width="30px"></td>
     <td align="center">
-      <a href="/II. MEDIUM/2191. Sort the Jumbled Numbers/">
+      <a href="/II. MEDIUM/912. Sort an Array/">
         <img src="https://github.com/abdeljalil-salhi/leetcode/assets/65598953/fabf3ea9-4ec8-4297-aebf-50605e1fe6da" width="100px;" alt="LeetCode Streak"/><br>
         <p>
           <b>Visit >></b>
