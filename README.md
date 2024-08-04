@@ -19,7 +19,7 @@
   <tr>
     <td width="30px"></td>
     <td align="center">
-      <a href="/I. EASY/1460. Make Two Arrays Equal by Reversing Subarrays/">
+      <a href="/II. MEDIUM/1508. Range Sum of Sorted Subarray Sums/">
         <img src="https://github.com/abdeljalil-salhi/leetcode/assets/65598953/fabf3ea9-4ec8-4297-aebf-50605e1fe6da" width="100px;" alt="LeetCode Streak"/><br>
         <p>
           <b>Visit >></b>
