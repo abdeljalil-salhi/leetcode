@@ -19,7 +19,7 @@
   <tr>
     <td width="30px"></td>
     <td align="center">
-      <a href="/I. EASY/860. Lemonade Change/">
+      <a href="/II. MEDIUM/624. Maximum Distance in Arrays/">
         <img src="https://assets.leetcode.com/static_assets/public/images/coin.gif" width="100px;" alt="LeetCode Streak"/><br>
         <p>
           <b>Visit >></b>
